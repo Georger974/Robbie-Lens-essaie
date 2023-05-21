@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+.paysages img {
+  width: 100%;
+  height: 100%;
+}
