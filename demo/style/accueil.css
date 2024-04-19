@@ -18,7 +18,7 @@ a {
 /* --------------main--------------- */
 h1 {
   font-family: "Montserrat", sans empattement;
-  font-size: 2em;
+  /* font-size: 75px; */
   color: #a5bafc;
   background-color: #1f2039;
 }

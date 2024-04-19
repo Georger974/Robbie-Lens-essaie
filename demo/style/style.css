@@ -10,20 +10,20 @@ a {
 }
 h1 {
   font-family: "Montserrat", sans empattement;
-  font-size: 3em;
+  font-size: clamp(35px, 5vw, 65px);
 }
 h2 {
   font-family: "Montserrat", sans empattement;
-  font-size: 2em;
+  font-size: clamp(10px, 4vw, 40px);
 }
 p,
 li {
-  font-size: 1.5em;
+  font-size: clamp(8px, 5vw, 30px);
   font-family: "Manrope", sans empattement;
   color: #f9f8ff;
 }
 nav a {
-  font-size: 1em;
+  font-size: clamp(15px, 5vw, 30px);
   font-family: "Manrope", sans empattement;
   color: #242424;
 }
@@ -54,11 +54,10 @@ footer {
   background-color: white;
 }
 /* --------------responsive-------------------- */
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1130px) {
   nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .navContainer {
     padding: 20px;
@@ -68,16 +67,16 @@ footer {
   label {
     padding: 10px;
   }
-  h2 {
-    font-size: 2.5em;
-  }
-  p,
+  /* h2 {
+    font-size: 1.2em;
+  } */
+  /* p,
   li {
-    font-size: 2.1em;
-  }
-  h1 {
-    font-size: 3em;
-  }
+    font-size: 1em;
+  } */
+  /* h1 {
+    font-size: 2em;
+  } */
   main {
     padding: 10px;
   }
